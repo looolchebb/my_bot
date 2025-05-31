@@ -90,5 +90,6 @@ async def main():
     print("Бот запущен...")
     await client.run_until_disconnected()
 
-if __name__ == "__main__":  # ✅ ПРАВИЛЬНО
-    start_bot()
+if __name__ == "__main__": 
+    import asyncio
+    asyncio.run(main())
