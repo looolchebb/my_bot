@@ -5,8 +5,8 @@ import asyncio
 
 import os
 
-api_id = int(os.getenv('21800053'))
-api_hash = os.getenv('59f47ce469b1874fbba2adcaf2ee7212')
+api_id = 21800053
+api_hash = '59f47ce469b1874fbba2adcaf2ee7212' 
 
 client = TelegramClient('ritual_bot_session', api_id, api_hash)
 
